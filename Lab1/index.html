@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lab 1 – DOM Events</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <h1>Lab 1 – DOM Events &amp; Event Handlers</h1>
+
+  <!-- Task 1.1: Image click handler -->
+  <section>
+    <h2>Task 1.1 – Image Click (logs width to console)</h2>
+    <div class="img-row">
+      <img id="img1" src="images/img1.svg" width="300" height="300" alt="Image 1">
+      <img id="img2" src="images/img2.svg" width="300" height="300" alt="Image 2">
+      <img id="img3" src="images/img3.svg" width="300" height="300" alt="Image 3">
+    </div>
+  </section>
+
+  <!-- Task 1.2: Link hover handler -->
+  <section>
+    <h2>Task 1.2 – Link Hover (sets title to href)</h2>
+    <div class="link-row">
+      <a href="https://example.com" class="hover-link">Example.com</a>
+      <a href="https://mozilla.org" class="hover-link">Mozilla.org</a>
+      <a href="https://github.com" class="hover-link">GitHub.com</a>
+    </div>
+    <p class="hint">Hover over a link to set its title attribute, then check the tooltip.</p>
+  </section>
+
+  <!-- Task 1.3: Input value display -->
+  <section>
+    <h2>Task 1.3 – Input Click (displays value below)</h2>
+    <div class="input-row">
+      <input class="demo-input" type="text" value="Hello">
+      <input class="demo-input" type="text" value="World">
+      <input class="demo-input" type="text" value="JavaScript">
+    </div>
+    <p id="demo">Click an input to display its value here.</p>
+  </section>
+
+  <!-- Task 1.4: First-click vs repeat-click -->
+  <section>
+    <h2>Task 1.4 – First Click → Console, Repeat → Alert</h2>
+    <div class="input-row">
+      <input class="smart-input" type="text" value="Alpha">
+      <input class="smart-input" type="text" value="Beta">
+      <input class="smart-input" type="text" value="Gamma">
+    </div>
+  </section>
+
+  <!-- Task 1.5: Number square calculator -->
+  <section>
+    <h2>Task 1.5 – Number Square (click to compute)</h2>
+    <div class="number-row">
+      <p class="number-word" data-value="5">five</p>
+      <p class="number-word" data-value="10">ten</p>
+      <p class="number-word" data-value="20">twenty</p>
+    </div>
+  </section>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
