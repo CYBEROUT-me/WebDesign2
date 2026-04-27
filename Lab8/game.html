@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Числова гра – Грати</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="game-wrapper">
+    <div class="timer-bar">Залишилось: <span id="timer">60</span> сек.</div>
+
+    <div id="grid" class="grid"></div>
+
+    <div id="message" class="message"></div>
+
+    <button id="restartBtn" class="btn">Почати з початку</button>
+
+    <div class="stats-section" id="statsSection" style="display:none">
+      <h3>Статистика</h3>
+      <table class="stats-table">
+        <thead>
+          <tr>
+            <th>Назва гри</th>
+            <th>Час</th>
+          </tr>
+        </thead>
+        <tbody id="statsBody"></tbody>
+      </table>
+    </div>
+  </div>
+
+  <script src="js/game.js"></script>
+</body>
+</html>

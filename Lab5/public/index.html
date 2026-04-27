@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lab 5 – AJAX | Квадрат числа</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="card">
+    <h1>Квадрат числа</h1>
+    <p class="subtitle">Введіть число — сервер обрахує його квадрат через AJAX</p>
+
+    <div class="form-group">
+      <label for="numberInput">Число</label>
+      <input type="number" id="numberInput" placeholder="Наприклад: 7" autofocus>
+    </div>
+
+    <button id="calcBtn">Обрахувати</button>
+
+    <div id="result" class="result hidden"></div>
+    <div id="error"  class="error  hidden"></div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
